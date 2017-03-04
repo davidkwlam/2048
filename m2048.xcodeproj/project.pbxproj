@@ -34,6 +34,7 @@
 		24C4517018DFF10B0001FCFD /* M2ScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4516F18DFF10B0001FCFD /* M2ScoreView.m */; };
 		24C4517318E140AE0001FCFD /* M2SettingsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4517218E140AE0001FCFD /* M2SettingsDetailViewController.m */; };
 		24C4518118E265390001FCFD /* M2Overlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4518018E265390001FCFD /* M2Overlay.m */; };
+		64213D111E6B733B005B2014 /* m2048FBSnapshotTestCases.m in Sources */ = {isa = PBXBuildFile; fileRef = 64213D101E6B733B005B2014 /* m2048FBSnapshotTestCases.m */; };
 		94929383911ABC20CC65FA62 /* Pods_m2048Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0A0DCAA40C9A430D5947BC /* Pods_m2048Tests.framework */; };
 		F97A9D1B623E11268412AF05 /* libPods-m2048.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C3D369287934A9D8185B61 /* libPods-m2048.a */; };
 /* End PBXBuildFile section */
@@ -96,6 +97,7 @@
 		24C4517F18E265390001FCFD /* M2Overlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2Overlay.h; sourceTree = "<group>"; };
 		24C4518018E265390001FCFD /* M2Overlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2Overlay.m; sourceTree = "<group>"; };
 		2E0A0DCAA40C9A430D5947BC /* Pods_m2048Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_m2048Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64213D101E6B733B005B2014 /* m2048FBSnapshotTestCases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = m2048FBSnapshotTestCases.m; sourceTree = "<group>"; };
 		66C3D369287934A9D8185B61 /* libPods-m2048.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-m2048.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67CC26643D4171DFF04828BB /* Pods-m2048Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-m2048Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-m2048Tests/Pods-m2048Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8EEF8DD3FE5697CF7E50EA91 /* Pods-m2048.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-m2048.debug.xcconfig"; path = "Pods/Target Support Files/Pods-m2048/Pods-m2048.debug.xcconfig"; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 			children = (
 				2443DC8718D662CA00C920C1 /* m2048Tests.m */,
 				2443DC8218D662CA00C920C1 /* Supporting Files */,
+				64213D101E6B733B005B2014 /* m2048FBSnapshotTestCases.m */,
 			);
 			path = m2048Tests;
 			sourceTree = "<group>";
@@ -513,6 +516,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2443DC8818D662CA00C920C1 /* m2048Tests.m in Sources */,
+				64213D111E6B733B005B2014 /* m2048FBSnapshotTestCases.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
