@@ -32,7 +32,9 @@
 
 - (void)testViewSnapshot
 {
-    
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *vc = [sb instantiateViewControllerWithIdentifier:@"M2ViewController"];
+    FBSnapshotVerifyView(vc.view, nil);
 }
 
 @end
